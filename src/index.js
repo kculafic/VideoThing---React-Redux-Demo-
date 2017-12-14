@@ -10,7 +10,10 @@ const App = () => {
   return (
     <div>
       <h1>VideoThing</h1>
-      <SearchBar />
+      <div>
+        <p>Below this is the SearchBar component</p>
+        <SearchBar />
+      </div>
     </div>
   )
 }
